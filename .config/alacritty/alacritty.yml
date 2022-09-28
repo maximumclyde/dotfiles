@@ -1,0 +1,40 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Any items in the `env` entry below will be added as
+# environment variables. Some entries may override variables
+# set by alacritty itself.
+env:
+  #IN CASE OF OPENGL RUNTIME ERROR:
+  #NEED TO SET ENVIRONMENT VARIABLE $LIBGL_ALWAYS_SOFTWARE=1 at /etc/environment
+  TERM: xterm-256color
+
+window:
+  dimensions:
+    columns: 150
+    lines: 100
+
+  padding:
+    x: 0
+    y: 5
+    
+  decorations: full
+
+  opacity: 0.92
+
+  title: Alacritty
+
+  dynamic_title: true
+
+font:
+
+  bold:
+
+    family: monospace
+
+colors:
+
+  primary:
+    background: '#232627'
+    foreground: '#FFFFEF'
+
+#EVERYTHING ELSE IS DEFAUL
