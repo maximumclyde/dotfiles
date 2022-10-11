@@ -39,11 +39,11 @@
 
 ## Screenshots
 
-![](screenshots/screen1.PNG)
+![](screenshots/screen1.png)
 
-![](screenshots/screen2.PNG)
+![](screenshots/screen2.png)
 
-![](screenshots/screen3.PNG)
+![](screenshots/screen3.png)
 
 
 </br>
